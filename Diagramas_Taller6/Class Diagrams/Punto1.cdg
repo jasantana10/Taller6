@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto1">
+  <ClassDiagramComponents>
+    <Class name="Persona" package="" visibility="public" xPosition="404.0" yPosition="33.0">
+      <Fields>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellidos" type="String" visibility="private"/>
+        <Field name="edad" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Concentrarse" returnType="void" visibility="public"/>
+        <Method name="Viajar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Futbolista" package="" visibility="public" xPosition="76.0" yPosition="161.0">
+      <Fields>
+        <Field name="dorsal" type="int" visibility="private"/>
+        <Field name="demarcacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="JugarPartido" returnType="void" visibility="public"/>
+        <Method name="Entrenar" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Entrenador" package="" visibility="public" xPosition="393.0" yPosition="303.0">
+      <Fields>
+        <Field name="idFederacion" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="DirigirPartido" returnType="void" visibility="public"/>
+        <Method name="DirigirEntrenamiento" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Masajista" package="" visibility="public" xPosition="710.0" yPosition="134.0">
+      <Fields>
+        <Field name="titulacion" type="String" visibility="private"/>
+        <Field name="aniosExperiencia" type="int" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="DarMasaje" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Entrenador" target="Persona"/>
+    <IsRelation name="is" source="Masajista" target="Persona"/>
+    <IsRelation name="is" source="Futbolista" target="Persona"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

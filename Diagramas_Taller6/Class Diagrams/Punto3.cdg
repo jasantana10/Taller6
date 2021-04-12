@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto3">
+  <ClassDiagramComponents>
+    <Class name="Persona" package="" visibility="public" xPosition="409.0" yPosition="-3.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+        <Field name="apellido" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Profesor" package="" visibility="public" xPosition="409.0" yPosition="181.0">
+      <Fields>
+        <Field name="idProfesor" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="ProfesorInterino" package="" visibility="public" xPosition="409.0" yPosition="329.0">
+      <Fields>
+        <Field name="fechaIncorporacion" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>

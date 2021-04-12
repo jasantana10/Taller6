@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto2">
+  <ClassDiagramComponents>
+    <Class name="Empleado" package="" visibility="public" xPosition="373.0" yPosition="11.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Constructor>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="setnombre" returnType="String" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="getnombre" returnType="String" visibility="public"/>
+        <Method name="ToString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Operario" package="" visibility="public" xPosition="312.0" yPosition="250.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="ToString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Directivo" package="" visibility="public" xPosition="500.0" yPosition="250.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="ToString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Oficial" package="" visibility="public" xPosition="215.0" yPosition="401.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="ToString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Tecnico" package="" visibility="public" xPosition="396.0" yPosition="401.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="ToString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Oficial" target="Operario"/>
+    <IsRelation name="is" source="Operario" target="Empleado"/>
+    <IsRelation name="is" source="Directivo" target="Empleado"/>
+    <IsRelation name="is" source="Tecnico" target="Operario"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

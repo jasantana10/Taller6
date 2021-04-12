@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Punto4">
+  <ClassDiagramComponents>
+    <Class name="Computador" package="" visibility="public" xPosition="381.0" yPosition="59.0">
+      <Fields>
+        <Field name="codigo" type="int" visibility="private"/>
+        <Field name="precio" type="double" visibility="private"/>
+        <Field name="eslogan" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Portatil" package="" visibility="public" xPosition="381.0" yPosition="299.0">
+      <Fields>
+        <Field name="peso" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+    <Class name="Sobremesa" package="" visibility="public" xPosition="716.0" yPosition="78.0">
+      <Fields>
+        <Field name="descripcionTorre" type="String" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="Portatil" target="Computador"/>
+    <IsRelation name="is" source="Sobremesa" target="Computador"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
